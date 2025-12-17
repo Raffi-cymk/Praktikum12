@@ -135,10 +135,10 @@ Setelah login berhasil:
 
 * Menampilkan daftar artikel dengan kolom:
 
-* * ID
+  * ID
 
-Judul
+  * Judul
 
-Aksi (Ubah & Hapus)
+  * Aksi (Ubah & Hapus)
 
 Halaman ini tidak bisa diakses tanpa login, karena telah diproteksi menggunakan session.
