@@ -127,7 +127,9 @@ Password: admin123
 Jika data benar, sistem akan memverifikasi menggunakan password_verify().
 
 
-📸 Screenshot 5 – Berhasil Login (Halaman Artikel)
+**📸 Screenshot 5 – Berhasil Login (Halaman Artikel)**
+
+<img width="1304" height="397" alt="Screenshot 2025-12-17 123306 - Copy" src="https://github.com/user-attachments/assets/2b3d0222-257d-4d38-851f-65a2c60de27b" />
 
 Setelah login berhasil:
 
@@ -142,3 +144,29 @@ Setelah login berhasil:
   * Aksi (Ubah & Hapus)
 
 Halaman ini tidak bisa diakses tanpa login, karena telah diproteksi menggunakan session.
+
+
+**📸 Screenshot 6 – Proses Logout**
+
+<img width="1304" height="397" alt="Screenshot 2025-12-17 123306" src="https://github.com/user-attachments/assets/ed6b54cd-188f-4b7c-971a-19366a0a2c38" />
+
+Screenshot ini menunjukkan posisi tombol Logout (ditandai dengan panah) saat user masih berada di halaman artikel.
+
+Logout berfungsi untuk:
+
+* Menghapus session
+
+* Mengakhiri akses user
+
+
+**📸 Screenshot 7 – Setelah Logout**
+
+<img width="1188" height="553" alt="Screenshot 2025-12-17 123143" src="https://github.com/user-attachments/assets/a2d53944-5cba-4b15-9fcb-29b916f7d0f7" />
+
+Setelah logout:
+
+* User otomatis diarahkan kembali ke halaman login
+
+* Tampilan kembali sama seperti Screenshot 4
+
+* User harus login ulang untuk mengakses data artikel
