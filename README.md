@@ -4,13 +4,15 @@
 
 Praktikum ini merupakan lanjutan dari Praktikum 11, dengan tujuan:
 
-Mengimplementasikan sistem login dan logout menggunakan PHP.
+1. Mengimplementasikan sistem login dan logout menggunakan PHP.
 
-Menggunakan session untuk membatasi akses halaman tertentu.
+2. Menggunakan session untuk membatasi akses halaman tertentu.
 
-Mengamankan fitur CRUD artikel agar hanya bisa diakses setelah login.
+3. Mengamankan fitur CRUD artikel agar hanya bisa diakses setelah login.
 
-Menerapkan enkripsi password (password_hash) sesuai standar keamanan PHP.
+4. Menerapkan enkripsi password (password_hash) sesuai standar keamanan PHP.
+
+---
 
 ## 🛠️ Teknologi yang Digunakan
 
