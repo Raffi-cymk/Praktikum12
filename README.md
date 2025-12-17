@@ -14,17 +14,17 @@ Menerapkan enkripsi password (password_hash) sesuai standar keamanan PHP.
 
 ## 🛠️ Teknologi yang Digunakan
 
-PHP (Native / OOP)
+* PHP (Native / OOP)
 
-MySQL
+* MySQL
 
-phpMyAdmin
+* phpMyAdmin
 
-XAMPP
+* XAMPP
 
-HTML & CSS
+* HTML & CSS
 
-Session PHP
+* Session PHP
 
 > 🎨 Catatan:
 Folder assets/css bersifat opsional dan digunakan untuk mempercantik tampilan (UI).
@@ -66,6 +66,7 @@ lab11_php_oop/
 ---
 
 ## 🧪 Langkah Pengerjaan & Penjelasan Screenshot
+
 **📸 Screenshot 1 – Mengubah SQL (Membuat Tabel Users)**
 
 <img width="795" height="509" alt="Screenshot 2025-12-17 102953" src="https://github.com/user-attachments/assets/4f5facac-753a-43ff-a336-770394c698d3" />
@@ -90,13 +91,13 @@ Password yang diberikan dosen bersifat contoh, sehingga pada implementasi nyata 
 
 Screenshot ini menampilkan struktur tabel users, yang terdiri dari:
 
-id
+* id
 
-username
+* username
 
-password
+* password
 
-nama
+* nama
 
 Struktur ini digunakan sebagai dasar autentikasi user (admin).
 
@@ -120,9 +121,9 @@ Perbedaan hash tidak mempengaruhi login selama password yang dimasukkan benar.
 Menampilkan halaman login aplikasi yang berada di localhost.
 User memasukkan:
 
-Username: admin
+* Username: admin
 
-Password: admin123
+* Password: admin123
 
 Jika data benar, sistem akan memverifikasi menggunakan password_verify().
 
@@ -170,3 +171,31 @@ Setelah logout:
 * Tampilan kembali sama seperti Screenshot 4
 
 * User harus login ulang untuk mengakses data artikel
+
+
+---
+
+## ℹ️ Catatan Tambahan
+
+* Fitur Ubah dan Hapus Artikel sudah diimplementasikan pada Praktikum 11 (Lab11Web).
+
+* Pada Praktikum 12, fokus utama adalah autentikasi & session, sehingga screenshot ubah/hapus tidak diwajibkan kembali.
+
+* Setelah logout, akses ke halaman artikel tidak dapat dilakukan tanpa login ulang.
+
+
+---
+
+## ✅ Kesimpulan
+
+Praktikum 12 berhasil mengimplementasikan:
+
+* Sistem login dan logout
+
+* Pengamanan halaman menggunakan session
+
+* Enkripsi password dengan password_hash
+
+* Integrasi autentikasi dengan CRUD artikel dari Praktikum 11
+
+Dengan demikian, aplikasi menjadi lebih aman dan sesuai dengan standar pengembangan web dasar.
